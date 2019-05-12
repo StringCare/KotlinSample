@@ -5,4 +5,4 @@ Basic Kotlin sample.
 git clone https://github.com/StringCare/KotlinSample.git
 ```
 
-<p align="center"><img width="70%" vspace="10" src="https://github.com/StringCare/KotlinSample/raw/master/sample.png"></p>
+<p align="center"><img width="50%" vspace="10" src="https://github.com/StringCare/KotlinSample/raw/master/sample.png"></p>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kenobi</string>
+    <string name="kenobi" hidden="true">Hello there</string>
+    <string name="grievous" hidden="true">General Kenobi</string>
+</resources>

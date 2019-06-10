@@ -7,7 +7,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.1'
@@ -22,7 +22,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
     }
 }
 
@@ -31,3 +30,14 @@ task clean(type: Delete) {
 }
 
 apply plugin: StringCare
+
+stringcare {
+    debug true
+    main_module "app"
+    modules {
+        app {
+            stringFiles = ['strings.xml', "strings_extra.xml"]
+            srcFolders = ['src/main', "src/other_source"]
+        }
+    }
+}

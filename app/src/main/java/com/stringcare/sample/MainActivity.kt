@@ -13,5 +13,7 @@ class MainActivity : AppCompatActivity() {
         SC.init(applicationContext)
 
         kenobi.text = SC.reveal(R.string.kenobi)
+        r2d2.text = SC.reveal(R.string.r2d2)
+        c3po.text = SC.reveal(R.string.c3po)
     }
 }

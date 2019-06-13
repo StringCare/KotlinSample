@@ -1,5 +1,1 @@
-<resources>
-    <string name="app_name">Kenobi</string>
-    <string name="kenobi" hidden="true" translatable="true">Hello there!</string>
-    <string name="grievous" hidden="true">General Kenobi</string>
-</resources>
+<resources>    <string name="app_name">Kenobi</string>    <string name="kenobi" hidden="true" translatable="true">Hello there!</string>    <string name="grievous" >73, -14, -114, 87, 34, -1, -8, -85, -59, -24, -29, -29, -60, -57</string></resources>

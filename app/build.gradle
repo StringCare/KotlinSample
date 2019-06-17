@@ -24,6 +24,11 @@ android {
     sourceSets {
         main.res.srcDirs = ['src/main/res', 'src/other_source/res']
     }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {

@@ -2,4 +2,5 @@
     <string name="app_name">Kenobi</string>
     <string name="kenobi" hidden="true" translatable="true">Hello there!</string>
     <string name="grievous" hidden="true">General Kenobi</string>
+    <!--string name="grievous" hidden="true">General Kenobi</string-->
 </resources>

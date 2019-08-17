@@ -16,10 +16,12 @@ class MainActivity : AppCompatActivity() {
         r2d2.text = R.string.r2d2.reveal()
         c3po.text = R.string.c3po.reveal(false)
 
-        "test.json".asyncJson { json ->
+        val json = "config.json".jsonArray { false }
+        val bytes = "config.json".bytes { false }
+        "test.json".asyncJson({ false }) { json ->
             tv_json.text = json.toString()
         }
-        "test.json".asyncBytes({ false }) { bytes ->
+        "config.json".asyncBytes { bytes ->
             tv_json_original.text = String(bytes)
         }
     }

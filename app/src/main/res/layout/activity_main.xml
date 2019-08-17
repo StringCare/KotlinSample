@@ -19,6 +19,10 @@
             <com.stringcare.library.SCTextView
                     android:id="@+id/kenobi"
                     style="@style/TextAppearance.AppCompat.Body1"
+                    android:paddingTop="25dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="@string/kenobi"/>
@@ -26,12 +30,21 @@
             <TextView
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:textSize="11sp"
+                    android:paddingTop="8dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@android:color/darker_gray"
                     android:text="@string/kenobi"/>
 
             <com.stringcare.library.SCTextView
                     style="@style/TextAppearance.AppCompat.Body1"
+                    android:paddingTop="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -40,6 +53,11 @@
             <TextView
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:textSize="11sp"
+                    android:paddingTop="8dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@android:color/darker_gray"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/grievous"/>
@@ -47,6 +65,10 @@
             <com.stringcare.library.SCTextView
                     android:id="@+id/r2d2"
                     style="@style/TextAppearance.AppCompat.Body1"
+                    android:paddingTop="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -55,6 +77,11 @@
             <TextView
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:textSize="11sp"
+                    android:paddingTop="8dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@android:color/darker_gray"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/r2d2"/>
@@ -62,17 +89,49 @@
             <com.stringcare.library.SCTextView
                     android:id="@+id/c3po"
                     style="@style/TextAppearance.AppCompat.Body1"
+                    android:paddingTop="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="@string/r2d2"/>
+                    android:layout_marginTop="15dp"/>
 
             <TextView
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:textSize="11sp"
+                    android:paddingTop="8dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@android:color/darker_gray"
                     android:text="@string/c3po"/>
+
+            <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="14sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/tv_json"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="11sp"
+                    android:paddingTop="8dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="25dp"
+                    android:id="@+id/tv_json_original"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
 
         </LinearLayout>
 

@@ -21,6 +21,17 @@ android {
         }
     }
 
+    flavorDimensions 'type'
+
+    productFlavors {
+        dev {
+            dimension = 'type'
+        }
+        prod {
+            dimension = 'type'
+        }
+    }
+
     sourceSets {
         main.res.srcDirs = ['src/main/res', 'src/other_source/res']
     }

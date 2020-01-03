@@ -7,11 +7,11 @@ buildscript {
     repositories {
         google()
         jcenter()
-
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
-        classpath "com.stringcare:plugin:$stringcare_version"
+        // classpath "com.stringcare:plugin:$stringcare_version"
+        classpath files('../KotlinGradlePlugin/build/libs/plugin-3.6.3.jar')
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -27,18 +27,4 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-apply plugin: StringCare
-
-stringcare {
-    debug true
-    main_module "app"
-    modules {
-        app {
-            assetsFiles = ["*.json"]
-            stringFiles = ['strings.xml', "strings_extra.xml"]
-            srcFolders = ['src/main', "src/other_source"]
-        }
-    }
 }

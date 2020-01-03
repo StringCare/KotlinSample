@@ -4,6 +4,15 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: StringCare
+
+stringcare {
+    debug true
+    assetsFiles = ["*.json"]
+    stringFiles = ['strings.xml', "strings_extra.xml"]
+    srcFolders = ['src/main', "src/other_source"]
+}
+
 android {
     compileSdkVersion 28
     defaultConfig {
